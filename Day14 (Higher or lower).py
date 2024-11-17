@@ -28,6 +28,8 @@ while should_continue:
     print(f"Against B: {format_data(a2)}.")
 
     user_guess=input("Who has more followers A or B ? ").lower()
+    print("\n"*30)
+    print(logo)
 
     f_a1=a1["follower_count"]
     f_a2=a2["follower_count"]
